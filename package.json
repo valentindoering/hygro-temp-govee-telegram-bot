@@ -1,0 +1,35 @@
+{
+  "name": "hygro-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/csv-parse": "^1.2.2",
+    "@types/imap": "^0.8.36",
+    "@types/mailparser": "^3.4.0",
+    "@types/node": "^20.1.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/node-schedule": "^2.1.0",
+    "@types/node-telegram-bot-api": "^0.61.6",
+    "axios": "^1.4.0",
+    "canvas": "^2.11.2",
+    "csv-parse": "^5.3.10",
+    "dotenv": "^16.0.3",
+    "form-data": "^4.0.0",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.4",
+    "moment-timezone": "^0.5.43",
+    "node-schedule": "^2.1.1",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
